@@ -1,0 +1,4 @@
+package com.example.ignite.generated;
+public class IgniteCacheLocalReadTest_IgniteFactory_jmhType extends IgniteCacheLocalReadTest_IgniteFactory_jmhType_B3 {
+}
+
