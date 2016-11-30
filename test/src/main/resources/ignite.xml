@@ -16,6 +16,22 @@
             </list>
         </property>
 
+        <property name="discoverySpi">
+            <bean class="org.apache.ignite.spi.discovery.tcp.TcpDiscoverySpi">
+                <property name="ackTimeout" value="5000"/>
+                <property name="networkTimeout" value="5000"/>
+                <property name="joinTimeout" value="5000"/>
+                <property name="maxAckTimeout" value="5000"/>
+                <property name="socketTimeout" value="5000"/>
+            </bean>
+        </property>
+        <property name="communicationSpi">
+            <bean class="org.apache.ignite.spi.communication.tcp.TcpCommunicationSpi">
+                <property name="connectTimeout" value="5000"/>
+                <property name="socketWriteTimeout" value="10000"/>
+            </bean>
+        </property>
+
         <property name="clientMode" value="false"/>
         <property name="gridName" value="test"/>
     </bean>
