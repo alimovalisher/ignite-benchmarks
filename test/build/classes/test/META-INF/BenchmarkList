@@ -1,3 +1,0 @@
-JMH S 43 com.example.ignite.IgniteCacheLocalReadTest S 93 com.example.ignite.generated.IgniteCacheLocalReadTest_readFromPartitionsWithExecutors_jmhTest S 31 readFromPartitionsWithExecutors S 10 Throughput E A 1 1 1 E I 1 5 E E E E E I 1 4 E E E E E E E E E 
-JMH S 43 com.example.ignite.IgniteCacheLocalReadTest S 90 com.example.ignite.generated.IgniteCacheLocalReadTest_readFromPartitionsWithStream_jmhTest S 28 readFromPartitionsWithStream S 10 Throughput E A 1 1 1 E I 1 5 E E E E E I 1 4 E E E E E E E E E 
-JMH S 43 com.example.ignite.IgniteCacheLocalReadTest S 76 com.example.ignite.generated.IgniteCacheLocalReadTest_readCacheLocal_jmhTest S 14 readCacheLocal S 10 Throughput E A 1 1 1 E I 1 5 E E E E E I 1 4 E E E E E E E E E 

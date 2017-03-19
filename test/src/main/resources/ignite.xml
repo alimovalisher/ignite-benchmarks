@@ -15,15 +15,12 @@
                 </bean>
             </list>
         </property>
+        <property name="marshaller">
+            <bean class="org.apache.ignite.internal.binary.BinaryMarshaller"/>
+        </property>
 
         <property name="discoverySpi">
-            <bean class="org.apache.ignite.spi.discovery.tcp.TcpDiscoverySpi">
-                <property name="ackTimeout" value="5000"/>
-                <property name="networkTimeout" value="5000"/>
-                <property name="joinTimeout" value="5000"/>
-                <property name="maxAckTimeout" value="5000"/>
-                <property name="socketTimeout" value="5000"/>
-            </bean>
+            <bean class="org.apache.ignite.spi.discovery.tcp.TcpDiscoverySpi"/>
         </property>
         <property name="communicationSpi">
             <bean class="org.apache.ignite.spi.communication.tcp.TcpCommunicationSpi">
